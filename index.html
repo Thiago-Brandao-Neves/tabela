@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratica tabela</title>
+    <style>
+        *{
+            margin: 0;
+        }
+      table{
+        font-size: 2rem;
+        border-spacing: 0;
+      }
+
+      table caption{
+        text-align: left;
+      }
+      td{
+        text-align: center;
+        border: 1px solid black;
+        padding: 1rem 4rem;
+      }
+      tables{
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+<tables>
+        <table>
+            <caption><strong>Tabela 8</strong></caption>
+          <tr>
+            <td>
+              <p>A</p>
+            </td>
+            <td>
+              <p>B</p>
+            </td>
+            <td>
+              <p>C</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>D</p>
+            </td>
+            <td>
+              <p>E</p>
+            </td>
+            <td rowspan="3">
+              <p>F</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G</p>
+            </td>
+            <td>
+              <p>H</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>I</p>
+            </td>
+            <td>
+              <p>J</p>
+            </td>
+          </tr>
+        </table>
+    
+    
+    <table>
+        <caption><strong>Tabela 9</strong></caption>
+          <tr>
+            <td>
+              <p>A</p>
+            </td>
+            <td>
+              <p>B</p>
+            </td>
+            <td>
+              <p>C</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>D</p>
+            </td>
+            <td rowspan="2">
+              <p>E</p>
+            </td>
+            <td>
+              <p>F</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G</p>
+            </td>
+            <td>
+              <p>H</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <p>I</p>
+            </td>
+          </tr>
+        </table>
+    
+         <table>
+            <caption><strong>Tabela 10</strong></caption>
+          <tr>
+            <td colspan="4">
+              <p>A</p>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="4">
+              <p>B</p>
+            </td>
+            <td>
+              <p>C</p>
+            </td>
+            <td>
+              <p>D</p>
+            </td>
+            <td>
+              <p>E</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>G</p>
+            </td>
+            <td>
+              <p>H</p>
+            </td>
+            <td>
+              <p>I</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>J</p>
+            </td>
+            <td>
+              <p>K</p>
+            </td>
+            <td>
+              <p>L</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">
+                <p>M</p>
+            </td>
+          </tr>
+        </table>
+</tables>
+  </body>
+</html>
